@@ -1,0 +1,108 @@
+@charset"utf-8";
+
+/*웹뷰 가림*/
+
+.panel,.mCon03Menu04,.mMainCon04,.mMainCon0{display:none;}
+
+/*웹뷰 가림*/
+
+
+
+/*모바일뷰*/
+
+@media screen and (max-width:768px){
+/*안보임처리*/
+    /*리셋*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    /*리셋*/
+    
+    
+    .gnb,.util,.mainCon02{display:none;}
+    
+    /*헤더*/
+    
+    #header{margin:10px 20px; height:auto;}
+    
+    /*메인슬라이더 */
+    .mainSlider{
+        padding:45% 0;
+        margin:0;
+        height:auto;
+        background-size:cover;
+        
+    }
+    .sliderTxt{
+        padding-top:0;
+        font-size:11px;
+    }
+    .sliderBtn{
+        width:13px;
+        height:23px;
+        background-size:400px;
+        background-position:-64px -30px;
+    }
+    .nextBtn{
+        background-position:-79px -30px;
+        right:10px;
+    }
+    .prevBtn{
+        left:10px;
+    }
+    
+    .sliderTxt h2{font-size: 14px;}
+
+    
+    #header h1{
+        background-size:400px;
+        width:70px;
+        height:28px;
+        background-position:0 0;
+        position:static;}
+    
+    /*보임처리*/
+    .panel{
+        background:url(../images/sp_com.png)no-repeat -227px -98px;
+        display:block;
+        width:16px;
+        height:15px;
+        background-size:400px;
+        position: absolute;
+        right:0;
+        top:6px;
+        text-indent:-9999px;
+    }
+    .panel a{
+        display:block;
+        height:100%;
+    }
+    /*아이콘영역*/
+    .mainCon01{padding:10px 0;}
+    
+    .mainCon01 li{
+        width:33.33%;
+        margin:10px 0;
+    }
+    .mainCon01 ul{
+        width:80%;
+    }
+    
+    .mainCon01 li span{
+        width:33px;
+        height:33px;
+        background-size:400px;
+        margin-bottom:5px;
+        margin:0 auto;
+    }
+    .con01Icon01{background-position:-1px -57px;}
+    .con01Icon02{background-position:-37px -57px;}
+    .con01Icon03{background-position:-74px -55px;}
+    .con01Icon04{background-position:-109px -57px;}
+    .con01Icon05{background-position:-145px -57px;}
+    .con01Icon06{background-position:-181px -57px;}
+    }
+    
+}
+
+/*모바일뷰*/
