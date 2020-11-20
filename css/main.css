@@ -185,11 +185,8 @@ background-position-y:-184px;
 }
 
 /*mainCon03*/
+.mainCon03{padding-top:50px;}
 
-.mainCon03{
-    padding:50px;
-
-}
 .mainCon03>div{
     width:285px;
     height:285px;
@@ -200,25 +197,29 @@ background-position-y:-184px;
 }
 .mainCon03>div a{
     display:block;
-
-}
-
-.mainCon03>div p{
-    display:none;
     height:100%;
 }
+
+.mainCon03>div:hover p{
+    display:block;
+}
+
 /*mainCon03 호버*/
 
 
-.mainCon03>div a:hover p{
-    background:rgba(8,121,50,0.8);
-    display:block;
+.mainCon03>div:hover a{background:rgba(45,90,120,0.8);}
+.mainCon03>div p{
+    font-size:14px;;
+    margin-top:10px;
     color:#fff;
+    display:none;
 }
 .mainCon03>div a:hover h3{
     display:block;
 }
 
+.mainCon03>div:hover p{display:block;}
+.mainCon03>div:hover a h3{color:#fff;}
 .mainCon03>div h3{
     padding-top:100px;
 }
